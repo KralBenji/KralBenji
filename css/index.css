@@ -1,0 +1,36 @@
+
+nav {
+    text-align: center;
+}
+
+body {
+    background-color: #b1b3e5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#banner {
+    width: 90%;
+    height: 75px;
+    background-image: "images/soundcloud_benner.jpg";
+
+}
+
+#latestvideo {
+    text-align: center;
+}
+
+
+nav ul li{
+    Color: white;
+    font-size: 50px;
+    list-style-type: none;
+    float: left;
+}

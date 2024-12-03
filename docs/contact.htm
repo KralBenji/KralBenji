@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Kral Benji Music" />
+    <meta name="keywords" content="Music, Videos, Merchandise" />
+    <meta name="author" content="Benjamin Kelly" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" type="text/css" href="../css/kralbenji.css" />
+    <title>Kral Benji - Music</title>
+  </head>
+  <body>
+    <!--The header will have a logo with company name, site navigation and banner image.-->
+    <header>
+      <img id="banner" src="../images/temp_banner.png" alt="Banner Image" />
+      <!--I will add a banner image when I get home. I have a temporary one that I made for this. Then I will update my logo in the future, and thus, update the whole banner again.-->
+      <div id="headernav">
+        <nav>
+          <a href="../index.htm">HOME</a>
+          <a href="../docs/aboutme.htm">ABOUT ME</a>
+          <a href="../docs/music.htm">MUSIC</a>
+          <a href="https://linktr.ee/kralbenji">LINKTREE</a>
+          <a href="../docs/shop.htm">SHOP</a>
+          <a href="../docs/contact.htm">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <form action="action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height: 200px"></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </main>
+    <!--The footer will include links, social media icons, and ways to contact us-->
+    <footer>
+      <br />
+      <div id="footernav">
+        <nav>
+          <a href="../index.htm">Home</a>
+          <a href="../docs/aboutme.htm">About Me</a>
+          <a href="../docs/music.htm">Music</a>
+          <a href="https://linktr.ee/kralbenji">LinkTree</a>
+          <a href="../docs/shop.htm">Shop</a>
+          <a href="../docs/contact.htm">Contact</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
